@@ -49,6 +49,7 @@ public class EmployeeDoubleLinkedList {
         removedNode.setNext(null);
         return removedNode;
     }
+    //---------------------------------------------------
     public EmployeeNode removeFromEnd(){
         if (isEmpty()){
             return null;
