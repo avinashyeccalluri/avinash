@@ -3,10 +3,12 @@ package com.avinash.LinkedList;
 public class EmployeeLinkedList {
     private EmployeeNode head;
     int size;
+
     public void addToFront(Employee employee){
         EmployeeNode node=new EmployeeNode(employee);
-        node.setNext(head);
+        node.setNext(head);//
         head=node;
+
         size++;
     }
     public int getSize(){

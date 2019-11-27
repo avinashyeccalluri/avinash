@@ -7,15 +7,18 @@ public class Main {
         Employee Avinashyeccalluri=new Employee("Avinash","yeccalluri",1);
         Employee kaneshyeccaluri=new Employee("Kanesh","yeccalluri",1);
         EmployeeLinkedList list=new EmployeeLinkedList();
-        System.out.println(list.isEmpty());
-        list.addToFront(Avinashyeccalluri);
+//        System.out.println(list.isEmpty());
+        list.addToFront(new Employee("Avinash","yeccalluri",1));
         list.addToFront(kaneshyeccaluri);
-        list.addToFront(new Employee("chitra","Avinash",12));
-        System.out.println(list.getSize());
         list.printList();
-        System.out.println(list.isEmpty());
-        list.removeFromFront();
-        System.out.println(list.getSize());
+//        list.addToFront(new Employee("chitra","Avinash",12));
+//        System.out.println(list.getSize());
+//        list.printList();
+//        list.printList();
+//        System.out.println(list.isEmpty());
+//        list.removeFromFront();
+//        System.out.println(list.getSize());
+//        list.returnType();
 
     }
 }

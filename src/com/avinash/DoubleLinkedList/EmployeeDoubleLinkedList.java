@@ -6,6 +6,7 @@ public class EmployeeDoubleLinkedList {
     int size;
     public void addToFront(Employee employee){
         EmployeeNode node=new EmployeeNode(employee);
+
         if(head==null){
             tail=node;
         }else{
@@ -16,6 +17,7 @@ public class EmployeeDoubleLinkedList {
         head=node;
         size++;
     }
+    //new Employee("chitra","avinash",1)
     public void addToEnd(Employee employee){
         EmployeeNode node=new EmployeeNode(employee);
         if(tail==null){
@@ -34,7 +36,7 @@ public class EmployeeDoubleLinkedList {
     public boolean isEmpty(){
         return head==null;
     }
-
+//-------------------------------------------------------------------
     public EmployeeNode removeFromFront(){
         if(isEmpty()){
             return null;

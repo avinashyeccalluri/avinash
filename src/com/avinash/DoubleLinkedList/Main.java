@@ -13,7 +13,7 @@ public class Main {
 //        System.out.println(list.getSize());
 //
 //        System.out.println(list.getSize());
-        list.addToEnd(avinashchitra);
+        list.addToEnd(new Employee("chitra","avinash",1));
         list.printList();
 //
 //        list.removeFromFront();
