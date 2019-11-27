@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "com.avinash.HashTable.Main",
+      "projectName": "untitled1_23d1c0d"
+    }
+  ]
+}
