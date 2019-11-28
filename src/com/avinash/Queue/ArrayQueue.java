@@ -1,6 +1,7 @@
 package com.avinash.Queue;
 
 import java.util.EmptyStackException;
+import java.util.NoSuchElementException;
 
 /**
  * ArrayQueue
@@ -32,7 +33,7 @@ public class ArrayQueue {
 
      public Employee remove(){
          if(isEmpty()){
-             throw new EmptyStackException();
+             throw new NoSuchElementException();
          }else{
             Employee employee=queue[end];
             employee=null;
