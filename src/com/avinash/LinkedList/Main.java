@@ -5,7 +5,7 @@ package com.avinash.LinkedList;
 public class Main {
     public static void main(String[] args) {
         Employee Avinashyeccalluri=new Employee("Avinash","yeccalluri",1);
-        Employee kaneshyeccaluri=new Employee("Kanesh","yeccalluri",1);
+        Employee kaneshyeccaluri=new Employee("Kanesh","yeccalluri",2);
         EmployeeLinkedList list=new EmployeeLinkedList();
 //        System.out.println(list.isEmpty());
         list.addToFront(new Employee("Avinash","yeccalluri",1));
