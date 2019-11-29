@@ -9,17 +9,17 @@ public class Main {
         list.addToFront(kaneshyeccalluri);
         list.printList();
 //        System.out.println(list.isEmpty());
-        Employee avinashchitra=new Employee("chitra","avinash",1);
+        // Employee avinashchitra=new Employee("chitra","avinash",1);
 //        System.out.println(list.getSize());
 //
 //        System.out.println(list.getSize());
-        list.addToEnd(new Employee("chitra","avinash",1));
-        list.printList();
+        // list.addToEnd(new Employee("chitra","avinash",1));
+        // list.printList();
 //
 //        list.removeFromFront();
 //        list.printList();
-        list.removeFromEnd();
-        list.printList();
+        // list.removeFromEnd();
+        // list.printList();
     }
 
 
