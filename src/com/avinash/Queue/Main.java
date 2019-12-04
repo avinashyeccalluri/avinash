@@ -10,6 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         Employee employee=new Employee("Avinash", "yeccalluri", 1);
+        Integer ao=2;
         //
         Employee employee1=new Employee("Kanesh", "yeccalluri", 2);
         Employee employee2=new Employee("Kanesh", "yeccalluri", 3);

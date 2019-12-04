@@ -23,8 +23,6 @@ public class EmployeeNode {
     public void setNext(EmployeeNode next) {
         this.next = next;
     }
-
-
     public String toString() {
         return employee.toString();
     }
