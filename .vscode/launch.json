@@ -2,6 +2,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ClassObject",
+      "request": "launch",
+      "mainClass": "com.avinash.GetToKnow.ClassObject",
+      "projectName": "avinash_58dde8af"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ClassObject",
+      "request": "launch",
+      "mainClass": "com.avinash.DoubleLinkedList.ClassObject",
+      "projectName": "avinash_58dde8af"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "com.avinash.DoubleLinkedList.Main",
+      "projectName": "avinash_58dde8af"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Main",
       "request": "launch",
       "mainClass": "com.avinash.HashTable.Main",
