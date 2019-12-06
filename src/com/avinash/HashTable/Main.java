@@ -15,8 +15,8 @@ public class Main {
     lt.put("Jones", janeJones);
     lt.put("Doe",johnDoe);
     lt.put("Wilson",mikeWilson);
-    // lt.put("Smith",marySmith);
-    // lt.printHashTable();
+    lt.put("Smith",marySmith);
+    lt.printHashTable();
     System.out.println(lt.get("Wilson"));
   }
 }

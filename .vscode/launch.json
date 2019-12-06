@@ -25,6 +25,27 @@
       "type": "java",
       "name": "CodeLens (Launch) - Main",
       "request": "launch",
+      "mainClass": "com.avinash.BinarySearchTree.Main",
+      "projectName": "untitled1_23d1c0d"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - BinarySearch",
+      "request": "launch",
+      "mainClass": "com.avinash.LinearSearch.BinarySearch.BinarySearch",
+      "projectName": "untitled1_23d1c0d"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "com.avinash.LinearSearch.Main",
+      "projectName": "untitled1_23d1c0d"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
       "mainClass": "com.avinash.HashTable.Main",
       "projectName": "untitled1_23d1c0d"
     }

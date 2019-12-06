@@ -5,19 +5,32 @@ package com.avinash.HashTable;
  */
 public class SimpleHashtable {
 
-  private Employee[] hastable;
+  private StoredEmployee[] hastable;
   public SimpleHashtable (){
-    hastable=new Employee[10];
+    hastable=new StoredEmployee[10];
   }
   public void put(String key,Employee employee){
     int hashedKey=hasKey(key);
-    if(hastable[hashedKey]!=null){      
-      System.out.println("Array index taken, the array index is "+hashedKey);
+    if(occupied(hashedKey)){
+      int stopIndex=hashedKey;
+    if(hashedKey==hastable.length-1){
+      hashedKey=0;
+    }else{
+      hashedKey++;
     }
-    else{
-      hastable[hashedKey]=employee;
-    }
-
+      while(occupied(hashedKey) && hashedKey!=stopIndex){
+        hashedKey=(hashedKey+1)%hastable.length;
+      }    
+  }
+  if(occupied(hashedKey)){
+    System.out.println("the index is occupied at the index");
+  }else{
+    hastable[hashedKey]=new StoredEmployee(key,employee);
+  }  
+  }
+  
+  private boolean occupied(int index){
+    return hastable[index]!=null; 
   }
   public Employee get(String key){
     int hashedKey=hasKey(key);
@@ -29,6 +42,13 @@ public class SimpleHashtable {
   public void printHashTable(){
     for (Employee employee : hastable) {
       System.out.println(employee);
+    }
+  }
+
+  private int findKey(String key){
+    int hashedKey=hasKey(key);
+    if(hastable[hashedKey]!=null && hastable[hasKey(key).key.equals(key)]){
+      return hashedKey;
     }
   }
 }
