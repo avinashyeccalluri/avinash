@@ -7,22 +7,7 @@ public class Main {
         EmployeeDoubleLinkedList list=new EmployeeDoubleLinkedList();
         list.addToFront(avinashyeccalluri);
         list.addToFront(kaneshyeccalluri);
+        list.addToEnd(avinashyeccalluri);
         list.printList();
-//        System.out.println(list.isEmpty());
-        // Employee avinashchitra=new Employee("chitra","avinash",1);
-//        System.out.println(list.getSize());
-//
-//        System.out.println(list.getSize());
-        // list.addToEnd(new Employee("chitra","avinash",1));
-        // list.printList();
-//
-//        list.removeFromFront();
-//        list.printList();
-        // list.removeFromEnd();
-        // list.printList();
     }
-
-
-
-
 }

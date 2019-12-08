@@ -50,6 +50,7 @@ public class ArrayQueue {
 
      public void printQueue(){
             for(int i=front;i<end;i++){
+                
                 System.out.println(queue[i]);
             }
      }

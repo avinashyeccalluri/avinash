@@ -6,19 +6,12 @@ public class Main {
     public static void main(String[] args) {
         Employee Avinashyeccalluri=new Employee("Avinash","yeccalluri",1);
         Employee kaneshyeccaluri=new Employee("Kanesh","yeccalluri",2);
+        Employee chitra=new Employee("chitra","govind",3);
         EmployeeLinkedList list=new EmployeeLinkedList();
-//        System.out.println(list.isEmpty());
-        list.addToFront(new Employee("Avinash","yeccalluri",1));
+        list.addToFront(Avinashyeccalluri);
         list.addToFront(kaneshyeccaluri);
+        list.addToFront(chitra);
         list.printList();
-//        list.addToFront(new Employee("chitra","Avinash",12));
-//        System.out.println(list.getSize());
-//        list.printList();
-//        list.printList();
-//        System.out.println(list.isEmpty());
-//        list.removeFromFront();
-//        System.out.println(list.getSize());
-//        list.returnType();
 
     }
 }

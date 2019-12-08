@@ -4,6 +4,34 @@
       "type": "java",
       "name": "CodeLens (Launch) - Main",
       "request": "launch",
+      "mainClass": "com.avinash.Queue.Main",
+      "projectName": "untitled1_23d1c0d"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "com.avinash.Stack.Main",
+      "projectName": "untitled1_23d1c0d"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "com.avinash.DoubleLinkedList.Main",
+      "projectName": "untitled1_23d1c0d"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "com.avinash.LinkedList.Main",
+      "projectName": "untitled1_23d1c0d"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
       "mainClass": "com.avinash.BinarySearchTree.Main",
       "projectName": "untitled1_23d1c0d"
     },

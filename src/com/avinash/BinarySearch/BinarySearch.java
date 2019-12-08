@@ -7,7 +7,6 @@ public class BinarySearch {
 
   public static void main(String[] args) {
     int[] intArray={-22,-15,1,7,20,35,55};
-    // System.out.println(iterativeSearch(intArray, 1));
     System.out.println(recursiveBinarySearch(intArray, 1));
   }
   public static int iterativeSearch(int[] array,int value){

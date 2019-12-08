@@ -38,7 +38,8 @@ public class CircularQueue {
        }
        if(end<queue.length-1){
          end++;
-       }else{
+       }
+       else{
          end=0;
        }
        queue[end]=employee;

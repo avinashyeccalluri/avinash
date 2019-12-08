@@ -9,7 +9,7 @@ public class ArrayStack {
     //size
     //isempty
     private Employee[] stack;
-    int top;
+    int top; 
     public ArrayStack(int capacity){
         stack=new Employee[capacity];
     }
