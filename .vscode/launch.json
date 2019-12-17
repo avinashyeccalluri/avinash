@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Student",
+      "request": "launch",
+      "mainClass": "com.avinash.GetToKnow.Student",
+      "projectName": "untitled1_23d1c0d"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ClassObject",
       "request": "launch",
       "mainClass": "com.avinash.GetToKnow.ClassObject",
