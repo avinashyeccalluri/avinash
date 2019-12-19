@@ -57,8 +57,6 @@ public class TreeNode {
       rightChild.traverseInOrder();
     }
   }
-    
-
   public int getData() {
     return this.data;
   }

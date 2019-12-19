@@ -1,6 +1,12 @@
 package com.avinash.DoubleLinkedList;
 
 public class EmployeeDoubleLinkedList {
+    //addtofront
+    //addtoend
+    //deletefromfront
+    //deletefromback
+    //size
+    //isEmpty
     private EmployeeNode head;
     private EmployeeNode tail;
     int size;
